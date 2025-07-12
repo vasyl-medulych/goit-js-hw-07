@@ -26,7 +26,6 @@ const images = [
 ];
 
 const ulElem = document.querySelector(".gallery");
-console.log(ulElem);
 
 function imageTemplate(img) {
   return `<li class="gallery-li"><img src="${img.url}" alt="${img.alt}" width="360" height="300"></li>`;
